@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a79df03-673f-4995-886a-cc4e62fd82c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Calculate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Slope.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ScannerDemo.java" afterPath="$PROJECT_DIR$/src/ScannerDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calculate.java" afterPath="$PROJECT_DIR$/src/Calculate.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="Calculate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="-378">
+              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +69,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ScannerDemo.java" />
-        <option value="$PROJECT_DIR$/src/Calculate.java" />
         <option value="$PROJECT_DIR$/src/Slope.java" />
+        <option value="$PROJECT_DIR$/src/Calculate.java" />
       </list>
     </option>
   </component>
@@ -272,12 +269,12 @@
       <workItem from="1557717375231" duration="974000" />
       <workItem from="1557730192290" duration="32000" />
       <workItem from="1557731859784" duration="539000" />
-      <workItem from="1557733645605" duration="1100000" />
+      <workItem from="1557733645605" duration="1364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11432000" />
+    <option name="totallyTimeSpent" value="11696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -423,8 +420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="-378">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

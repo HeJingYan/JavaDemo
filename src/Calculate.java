@@ -18,15 +18,20 @@ public class Calculate {
         getExtremePoint();//找局部极值点，在列表slopes中添加斜率
         System.out.println("*************寻找所有斜率************");
         displaySlopes(slopes);
+
         List<Slope> slopes_distribution=getSlopeByDistribution(slopes);//计算分布，选择分布最多的区间（这里分为3个区间）
         System.out.println("*************寻找最大分布斜率************");
         displaySlopes(slopes_distribution);
+
         List<Slope> slopes_sortd=getSlopesBySort(slopes_distribution);//将选中的区间内的线段按照帧数从大到小排序
         System.out.println("*************寻找排序后的斜率************");
         displaySlopes(slopes_sortd);
+
         List<Slope> slopes_removeMax=getSlopesByRemoveMax((slopes_sortd));//选择前9个线段，并去掉其中斜率的最大值
         System.out.println("*************寻找去除掉最大值的斜率************");
         displaySlopes(slopes_removeMax);
+
+        
         double slope_average=getAverage(slopes_removeMax);//求其余平均值
         System.out.println(slope_average);
     }
@@ -120,6 +125,7 @@ public class Calculate {
         return centerSlopes.get(index);
     }
 
+    //将选中的区间内的线段按照帧数从大到小排序
     private List<Slope> getSlopesBySort(List<Slope> slopes)
     {
         if(slopes==null||slopes.size()<=1)
@@ -139,7 +145,7 @@ public class Calculate {
         return slopes;
     }
 
-    //将选中的区间内的线段按照帧数从大到小排序
+    //选择前9个线段，并去掉其中斜率的最大值
     private List<Slope> getSlopesByRemoveMax(List<Slope> slopes)
     {
         if(slopes==null||slopes.size()<=1)
